@@ -1,0 +1,29 @@
+body {
+    background-color: #000;
+    color: white;
+}
+
+.app {
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+#taskInput {
+    padding: 10px 10px;
+}
+
+#addBtn {
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
